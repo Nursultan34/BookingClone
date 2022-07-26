@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import ListPage from './pages/List/ListPage';
 import Hotel from './pages/hotel/Hotel';
 import SingPage from './pages/SingPage/SingPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
   return  (
@@ -13,6 +14,7 @@ function App() {
     <Route path='/hotels' element={<ListPage/>}/>
     <Route path='/hotels/:id' element={<Hotel/>}/>
     <Route path='/sing' element={<SingPage/>}/>
+    <Route path='/contact' element={<ContactPage/>}/>
  </Routes>
   );
 }

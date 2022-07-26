@@ -24,12 +24,56 @@
     margin: 0px 00px 10px 0px;
     
 }
+.button-content{
+    cursor: pointer;
+    display: flex;
+}
 .inputBlock input{
     width: 350px;
     height: 30px;
 
-}
 
+}
+.button-image{
+    border: 1px solid #e6e6e6!important;
+    display: inline-block;
+    display: flex;
+    height: 30px;
+    margin: 8px;
+    padding: 23px;
+    width: 30px;
+
+}
+.IconPage{
+    margin-left: -11px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.button-image svg{
+    fill: #4267b2;
+    margin-left: 3.5px;
+}
+.span{
+   margin-top: 20px;
+   margin-left: 100px;
+
+}
+.span-block{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #0071c2;
+}
+.text-block{
+    display: flex;
+    font-size: 12px;
+    font-weight: 200;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+
+}
 .buttonBlock button{
     border: none;
     width: 355px;
@@ -71,4 +115,19 @@
     background-color: #dedede;
     height: 1px;
     width: 100%;
+}
+.line2{
+    background-color: #dedede;
+    height: 1px;
+    width: 100%;
+}
+.text2{
+    flex-direction: column;
+    position: absolute;
+    margin-top: 90px;
+    text-align: center;
+    align-items: center;
+    margin-left: 45px;
+    font-weight: 100;
+    font-size: 12px;
 }

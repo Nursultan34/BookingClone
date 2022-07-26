@@ -1,0 +1,125 @@
+.cWrapper {
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  margin-left: 340px;
+  height: 43%;
+  top: 40px;
+  position: relative;
+}
+
+.ContactItem span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.comments {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
+.text1 h2 {
+  font-weight: 400;
+  font-size: 13px;
+  width: 250px;
+  margin-left: 40px;
+}
+.text2 {
+  margin-top: 20px;
+  margin-left: 350px;
+}
+.text2 span {
+  font-weight: bold;
+  line-height: 30px;
+}
+.text2 h2 {
+  position: absolute;
+  font-weight: 400;
+  font-size: 13px;
+
+  width: 250px;
+}
+.calls{
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.button button{
+    border: none;
+    background-color: #0071c2;
+    color: white;
+    width: 500px;
+    justify-content: center;
+    height: 37px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+   
+}
+
+.button button:hover{
+    background-color: #003580;
+}
+.span3{
+   font-size: 18px;
+   color: #0071c2;
+   font-weight: bold;
+   position: absolute;
+   bottom: 50px;
+   left: 230px;
+}
+.spanblock{
+    height: 40px;
+    width: 680px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.spanblock:hover{
+    background-color: #f2f2f2;
+}
+.text1 span {
+  font-weight: bold;
+  margin-left: 15px;
+  line-height: 30px;
+}
+.contactSecond {
+  border: 1px solid lightgray;
+  height: 150px;
+  width: 680px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+
+  display: flex;
+}
+.text1 {
+  text-align: left;
+  margin-left: 25px;
+}
+.Cpage {
+  background-color: gainsboro;
+  width: 100%;
+  max-width: 1450px;
+  height: 1000px;
+}
+.ContactItem {
+  padding: 10px;
+}
+.ContactItem h1 {
+  font-size: 22px;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 10px;
+  padding: 20px 0px 20px 0px;
+}
+.ContactItem h2 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 10px;
+}
