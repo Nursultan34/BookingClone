@@ -7,10 +7,14 @@ import Navbar from '../../components/navbar/Navbar'
 import PropertyList from '../../components/Property/PropertyList'
 import './Home.css'
 import Footer from '../../components/footer/Footer';
+import { motion } from 'framer-motion';
 
 function Home() {
   return (
-    <div>
+    <motion.div 
+    initial={{opacity: 0}}
+    animate={{opacity: 2.5}}
+    exit={{opacity: 1 }}>
         <Navbar/>
         <Header/>
         <div className="homeContainer">
@@ -24,7 +28,7 @@ function Home() {
             <Footer/>
           
         </div>
-    </div>
+    </motion.div>
   )
 }
 

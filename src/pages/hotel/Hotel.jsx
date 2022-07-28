@@ -11,6 +11,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
+import { motion } from 'framer-motion';
 
 function Hotel() {
   const [slider, setSlider] = useState(0);
@@ -52,7 +53,10 @@ function Hotel() {
     setSlider(newSlideNumber)
   };
   return (
-    <div>
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity:2.5}}
+    exit={{opacity: 1}}>
       <Navbar />
       <Header type="list" />
       <div className="hotelContainer">
@@ -126,7 +130,7 @@ function Hotel() {
           <Footer />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

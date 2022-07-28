@@ -6,6 +6,7 @@ import { useLocation } from 'react-router-dom';
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
 import SearchItem from '../../components/SearchItem/SearchItem';
+import { motion } from 'framer-motion';
 
 function ListPage() {
   const location = useLocation();
@@ -15,7 +16,10 @@ function ListPage() {
   const [options, setOptions] = useState(location.state.options);
 
   return (
-    <div>
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity:2.5}}
+    exit={{opacity: 1}}>
       <Navbar />
       <Header type="list" />
       <div className="listContainer">
@@ -79,7 +83,7 @@ function ListPage() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

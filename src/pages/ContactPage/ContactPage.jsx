@@ -1,10 +1,11 @@
-import React from 'react';
-import './ContactPage.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments } from '@fortawesome/free-regular-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { motion } from "framer-motion";
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../components/navbar/Navbar';
+import './ContactPage.css';
 
 function ContactPage() {
     const navigate = useNavigate();
@@ -14,7 +15,10 @@ function ContactPage() {
     }
   return (
      
-    <>
+    <motion.div
+      initial={{opacity: 0}}
+      animate={{opacity:2.5}}
+      exit={{opacity:1}}>
       <Navbar />
       <div className="Cpage">
         <div className="cWrapper">
@@ -46,7 +50,7 @@ function ContactPage() {
         </div>
        
       </div>
-    </>
+    </motion.div>
   );
 }
 

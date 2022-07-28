@@ -57,7 +57,7 @@
     font-weight: bold;
     cursor: pointer;
     position: absolute;
-    bottom: 120px;
+    bottom: 110px;
     left: 100px;
    
 }
@@ -70,7 +70,7 @@
    color: #0071c2;
    font-weight: bold;
    position: absolute;
-   bottom: 50px;
+   bottom: 35px;
    left: 230px;
 }
 .spanblock{
@@ -90,7 +90,7 @@
 }
 .contactSecond {
   border: 1px solid lightgray;
-  height: 150px;
+  height: 170px;
   width: 680px;
   margin-left: 20px;
   margin-bottom: 30px;
