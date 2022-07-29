@@ -8,6 +8,7 @@ import PropertyList from '../../components/Property/PropertyList'
 import './Home.css'
 import Footer from '../../components/footer/Footer';
 import { motion } from 'framer-motion';
+import TextZone from '../../components/TextZone/TextZone';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
             <PropertyList/>
             <h1 className='homeTitle'>Homes guests love</h1>
             <FeatutedProperties/>
+            <TextZone/>
             <MailList/>
             <Footer/>
           
