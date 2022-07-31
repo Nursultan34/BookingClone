@@ -6,6 +6,7 @@ import ListPage from './pages/List/ListPage';
 import Hotel from './pages/hotel/Hotel';
 import SingPage from './pages/SingPage/SingPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 
 function App() {
   const location = useLocation()
@@ -16,6 +17,7 @@ function App() {
       <Route path="/hotels/:id" element={<Hotel />} />
       <Route path="/sing" element={<SingPage/>} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 }

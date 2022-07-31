@@ -1,0 +1,88 @@
+.NorFoundItem{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   
+}
+.NorFoundItem h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.NorFoundItem span{
+    font-size: 16px;
+    line-height: 15px;
+    color: #838383;
+}
+.descNot{
+    border: 1px solid #cd8900;
+    width: 600px;
+    height: 185px;
+    border-radius: 3px;
+    padding: 12px;
+    background: linear-gradient(to bottom,#febb02 0,#febb02 100%);
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.descNot h2 {
+    margin: 0px 0px 5px 0px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputNot{
+    border: #cd8900;
+    border: 1px solid #003580;
+    border-radius: 3px;
+    width: 550px;
+    height: 20px;
+    padding: 5px;
+    line-height: 22px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.inputNot:placeholder-shown{
+    color: #aeaeae;
+}
+.check input{
+  padding: 10px;
+  width: 250px;
+  margin: 0px 10px 0px 10px;
+}
+.spanDiv{
+ margin-top: 15px;
+}
+.spanDiv span {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin: 95px;
+}
+.NotFoundDate{
+    width: 500px;
+    z-index: 2;
+}
+.rdrMonth{
+width: 39.667em;
+}
+.buttonNot{
+    position: relative;
+    margin-top: 17px;
+    right: -220px;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 5px 25px;
+    line-height: 34px;
+    font-size: 23px;
+    border: 0;
+    color: #fff;
+    background-color: #0071c2;
+}
+.divButton {
+    z-index: -2;
+}
